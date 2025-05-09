@@ -101,7 +101,7 @@ SynthDef(\reverb, {
 
 
 
-m = NetAddr("192.168.100.61", 12000);
+m = NetAddr("127.0.0.1", 12000);
 m.sendMsg("/prueba", 1);
 
 (
